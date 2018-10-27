@@ -1788,7 +1788,7 @@ var UnityLoader = UnityLoader || {
         },
         popup: function(e, t, r) {
             r = r || [{
-                text: "OK"
+                //text: "OK"
             }];
             var n = document.createElement("div");
             n.style.cssText = "position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; border: 1px solid black; padding: 5px; background: #E8E8E8";
@@ -2209,7 +2209,7 @@ var UnityLoader = UnityLoader || {
                         "WebGL 2.0" == d && 2 == UnityLoader.SystemInfo.hasWebGL ? i = !0 : "WebGL 1.0" == d && UnityLoader.SystemInfo.hasWebGL >= 1 ? i = !0 : n.print("Warning: Unsupported graphics API " + d)
                     }
                     return i ? (e.style.background = n.backgroundUrl ? "center/cover url('" + n.resolveBuildUrl(n.backgroundUrl) + "')" : n.backgroundColor ? " " + n.backgroundColor : "", r.onProgress(r, 0), void UnityLoader.loadModule(n)) : void r.popup("Your browser does not support any of the required graphics API for this content: " + n.graphicsAPI, [{
-                        text: "OK"
+                        //text: "OK"
                     }])
                 }, t.send()
             }, function() {
