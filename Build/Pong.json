@@ -4,7 +4,7 @@
 "dataUrl": "Pong.data.unityweb",
 "wasmCodeUrl": "Pong.wasm.code.unityweb",
 "wasmFrameworkUrl": "Pong.wasm.framework.unityweb",
-"TOTAL_MEMORY": 33554432,
+"TOTAL_MEMORY": 83886080,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
