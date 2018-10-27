@@ -1,2 +1,2 @@
 # Bilborough-Pong
-A game by Leif Kemp
+A game by Leif Kemp for Bilborough Xtra
