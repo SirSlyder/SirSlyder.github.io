@@ -1,0 +1,13 @@
+{
+"companyName": " ",
+"productName": "Bilborough Pong",
+"dataUrl": "Experimental.data.unityweb",
+"wasmCodeUrl": "Experimental.wasm.code.unityweb",
+"wasmFrameworkUrl": "Experimental.wasm.framework.unityweb",
+"TOTAL_MEMORY": 16777216,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#4E1580",
+"cacheControl": {"default": "must-revalidate"}
+}
